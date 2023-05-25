@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<title>Our Funky HTML Page</title>
+<meta name="description" content="Our first page">
+<meta name="keywords" content="html tutorial template">
+<link rel="stylesheet" href ="style.css">
+
+<link href="https://fonts.cdnfonts.com/css/modern-typewriter" rel="stylesheet">
+
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<H1>Javascript Cryptography Toolbox</H1>
+<p>This encryption tool provides uses CryptoJS to demonstrate well-known encryption standards. The algorithim's featured here are: AES, DES, Rabbit and RC4. 
+<br>   
+<p>Enter the data you want to encrypt, choose a passcode and then click encrypt!</p>    
+</p>
+<br>
+<br>
+<br>
+<br>
+
+<h2>AES Encryption</h2>
+<p>The Advanced Encryption Standard (AES) is a U.S. Federal Information Processing Standard (FIPS). It was selected after a 5-year process where 15 competing designs were evaluated.</p>
+<script> 
+    function encryptAES(){
+
+    var encrypted = CryptoJS.AES.encrypt(document.getElementById("plaintext").value, document.getElementById("passcode").value);
+    document.getElementById("result").innerHTML = encrypted;
+
+}
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<input id="plaintext" type="text" value="Enter plaintext here"/>
+<br>
+<br>
+<input id="passcode" type="text" value="Enter passcode here"/>
+<br>
+<br>
+<br>
+<button onclick="encryptAES()">Encrypt</button>
+<br>
+<br>
+<br>
+<span id="result"></span>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+<h2>DES Encryption</h2>
+<p>DES is a previously dominant algorithm for encryption, and was published as an official Federal Information Processing Standard (FIPS). DES is now considered to be insecure due to the small key size.</p>
+    <script> 
+        function encryptDES(){
+
+        var encrypted2 = CryptoJS.DES.encrypt(document.getElementById("plaintext1").value, document.getElementById("passcode1").value);
+        document.getElementById("result1").innerHTML = encrypted2;
+
+        }
+ 
+    </script>
+    
+    <br>
+    <br>
+    <br>
+    <input id="plaintext1" type="text" value="Enter plaintext here"/>
+    <br>
+    <br>
+    <input id="passcode1" type="text" value="Enter passcode here"/>
+    <br>
+    <br>
+    <br>
+    <button onclick="encryptDES()">Encrypt</button>
+    <br>
+    <br>
+    <br>
+    <span id="result1"></span>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+
+<h2>Rabbit Encryption</h2>
+<p>Rabbit is a high-performance stream cipher and a finalist in the eSTREAM Portfolio. It is one of the four designs selected after a 3 1/2-year process where 22 designs were evaluated.</p>
+<script>
+        function Rabbit(){
+        var encrypted3 = CryptoJS.Rabbit.encrypt(document.getElementById("plaintext2").value, document.getElementById("passcode2").value);
+        document.getElementById("result2").innerHTML = encrypted3;
+
+        }
+
+</script>
+
+<input id="plaintext2" type="text" value="Enter plaintext here"/>
+
+<br>
+<br>
+
+<input id="passcode2" type="type" value="Enter passcode here"/>
+
+<br>
+<br>
+<br>
+
+<button onclick="Rabbit()">Encrypt</button>
+
+<br>
+<br>
+<span id="result2"></span>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h2>RC4 Encryption</h2>
+<p>RC4 is a widely-used stream cipher. It's used in popular protocols such as SSL and WEP. Although remarkable for its simplicity and speed, the algorithm's history doesn't inspire confidence in its security.</p>
+
+
+
+<script>
+      function RC4(){
+
+      var encrypted4 = CryptoJS.RC4.encrypt(document.getElementById("plaintext3").value, document.getElementById("passcode3").value);
+      document.getElementById("result3").innerHTML = encrypted4;
+      }
+
+ </script>
+
+      <br>
+
+      <input id="plaintext3" type="text" value="Enter plaintext here"/> 
+
+      <br>
+      <br>
+   
+      <input id="passcode3" type="text" value="Enter passcode here"/>
+
+      <br>
+      <br>
+      <br>
+
+      <button onclick="RC4()">Encrypt</button>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <span id="result3"></span>
+
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+</body>
+</html>

@@ -1,0 +1,293 @@
+body {
+  display: block;
+  border: 1px solid #BBB;
+  color: #444;
+  font-size: 10px;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  background-image: url(https://www.photos-public-domain.com/wp-content/uploads/2018/05/ivory-off-white-card-stock-paper-texture.jpg);
+
+}
+
+
+h1 {
+  margin-top: 20px;
+  display: flex;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  font-size: 30px;
+
+}
+
+h2{
+  margin-top: 20px;
+  display: flex;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  font-size: 24px;
+}
+
+
+p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 10px;
+  margin: 50px auto;
+  font-size:15px;
+  
+
+
+}
+
+button {
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+
+}
+
+#plaintext{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+#passcode{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#plaintext1{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+#passcode1{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+#plaintext2{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+#passcode2{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+#plaintext3{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  background-color: #F0E68C;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+#passcode3{
+  margin-top: 20px;
+  border: 20px solid black;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  border: 2px solid #BBB;
+  color: #444;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+#result{
+  align-items: center;
+  display: flex;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+
+#result1{
+  align-items: center;
+  display: flex;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+#result2{
+  align-items: center;
+  display: flex;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+
+#result3{
+  align-items: center;
+  display: flex;
+  font-family: 'MODERN TYPEWRITER', sans-serif;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+
+
+
+
